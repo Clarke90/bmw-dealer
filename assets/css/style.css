@@ -1,0 +1,137 @@
+/*style.css*/
+header{
+    margin-top: -3%;
+}
+nav{
+    background-color: rgba(211,211,211,0.5);
+    padding-top: 2px;
+}
+nav ul li a{
+    color: #333;
+    font-size: 18px; 
+}
+.navbar-nav{
+    margin-right: 200px;
+    
+}
+h1 span{
+    color: dodgerblue;
+}
+aside{
+    margin-top: 30px;
+}
+.box {
+   text-align: center;
+    display: inline-block;
+    width: 160px;
+    height: 100px;
+    margin-top: 100px;
+    margin: 5px;
+    background-color: grey;
+}
+
+.box h4{
+        color: #ccc;
+        margin-top: 60px;
+ } 
+ .box p{
+        color: #fff;
+        
+ } 
+.feature {
+   text-align: center;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin-top: 100px;
+    margin: 5px;
+    border-bottom: 1px solid #222;
+    border-left:  1px solid #222;
+    border-right: 1px solid #222;
+}
+.special-feature {
+   text-align: center;
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+    margin-top: 100px;
+    margin: 10px;
+   border-bottom: 1px solid #222;
+   border-left:  1px solid #222;
+   border-right: 1px solid #222;
+}
+#special-text{
+    float: right;
+}
+#logo{
+    margin-top: -14px;
+}
+footer {
+/* base styles */
+background: #ccc;
+padding: 1em;
+}
+footer h3 {
+margin: 0;
+font-family: "Arial Black", Arial, sans-serif;
+font-size: 200%;
+margin: 0.5em;
+color: white;
+text-shadow: 3px 3px 0 #333;
+letter-spacing: -0.05em;
+text-align: center;
+}
+footer p {
+font-size: 50%;
+text-align: center;
+}
+footer a {
+color: black;
+}
+ footer a.top{
+ position: fixed;
+ bottom: 1.5em;
+ right: 1.5em;  
+ /*hide until needed*/
+  /*display: none;*/
+ }
+#header-calltoaction{
+margin-top: -540px;
+margin-left: 100px;
+}
+#header-calltoaction h1{
+font-size: 80px;
+color: lightblue;
+}
+#header-calltoaction h2{
+font-size: 30px;
+color: #fff;
+
+}
+aside#first{
+    margin-top: 300px;
+}
+input[type="text"] {
+    width: 400px;
+    padding-bottom: 50px;
+}
+.header_img{
+    border: 5px solid #333;
+    margin-bottom: 10%;
+}
+aside#section{
+    background-image: url(assets/img/road.jpg);
+    background-size: cover;
+    height: 100%;
+}
+/*landing button*/
+.btn-flat{
+    background: rgba(30,144,255,0.8);
+    border-radius: 0px;
+    color: #fff;
+}
+.btn-flat:hover{
+    background: rgb(30,144,255);
+    color: #fff;
+}
+
